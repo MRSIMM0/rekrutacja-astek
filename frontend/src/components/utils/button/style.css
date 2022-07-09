@@ -1,0 +1,42 @@
+.button {
+  text-align: center;
+  padding: 2px;
+  background-color: #b2dde1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  font-size: 1.2em;
+  width: 100%;
+  height: 100%;
+  font-weight: bold;
+  user-select: none;
+}
+
+.button:hover {
+  background-color: #a8ced2;
+  cursor: pointer;
+}
+.button:active {
+  background-color: #b2dde1;
+}
+
+.hasError {
+  user-select: none;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5em;
+  font-weight: bold;
+  justify-self: center;
+  align-self: center;
+  position: absolute;
+  bottom: 10%;
+  background-color: rgb(221, 0, 0);
+  width: 20%;
+  max-width: 300px;
+  border-radius: 10px;
+  height: 10%;
+  max-height: 100px;
+}

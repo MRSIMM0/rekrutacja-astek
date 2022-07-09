@@ -1,0 +1,32 @@
+.container {
+  display: flex;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: #b2dde1;
+  justify-content: center;
+}
+.card {
+  flex-direction: column;
+  display: flex;
+  align-content: center;
+  justify-items: center;
+  border-radius: 20px;
+  align-self: center;
+  aspect-ratio: 1/1;
+  max-width: 800px;
+  max-height: 900px;
+  height: 90%;
+  background-color: #ddecec;
+  justify-self: center;
+}
+
+.backBtn {
+  align-self: flex-end;
+  /* justify-self: ; */
+  margin-right: 20px;
+  position: absolute;
+  width: 100px;
+  margin-top: 10px;
+}

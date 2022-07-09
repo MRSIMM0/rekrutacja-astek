@@ -1,0 +1,176 @@
+.admin {
+  user-select: none;
+  margin-top: 70px;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+
+  width: 100%;
+  height: 100%;
+  row-gap: 10px;
+}
+
+.input-group {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 20px;
+  justify-items: center;
+  align-items: center;
+}
+
+.input-name {
+  /*background-color: red;*/
+  font-weight: 500;
+  max-width: 300px;
+  font-size: 1.5em;
+}
+
+.receipts-type-group {
+  font-size: 1em;
+  flex-direction: column;
+  row-gap: 10px;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+  align-items: center;
+}
+.add {
+  font-size: 1em;
+  height: 30px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 10%;
+}
+
+.list-wrapper {
+  display: flex;
+
+  justify-content: center;
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: white;
+  width: 70%;
+  height: 150px;
+}
+
+.receipts-list {
+  margin-top: 15px;
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+  background-color: white;
+  height: 130px;
+  overflow: scroll;
+  width: 97%;
+  height: 100%;
+  row-gap: 10px;
+}
+
+.back {
+  right: 5%;
+  top: 5%;
+  position: absolute;
+  width: 50px;
+  height: 40px;
+  font-size: 1em;
+  opacity: 0;
+}
+
+.input-group {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 20px;
+  justify-items: center;
+  align-items: center;
+}
+
+.input-name {
+  /*background-color: red;*/
+
+  max-width: 300px;
+  font-size: 1.5em;
+}
+
+.input-field {
+  width: 90%;
+  max-width: 40px;
+  aspect-ratio: 1/1;
+  height: 90%;
+}
+
+.input-reciept {
+  width: 90%;
+  max-width: 150px;
+  height: 100%;
+}
+
+.receipts-type-group {
+  font-size: 1em;
+  flex-direction: column;
+  row-gap: 10px;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+  align-items: center;
+}
+.add {
+  width: 70px;
+  height: 30px;
+}
+
+.change {
+  width: 200px;
+  height: 30px;
+}
+
+.back {
+  right: 5%;
+  top: 5%;
+  position: absolute;
+  width: 50px;
+  height: 40px;
+  font-size: 1em;
+  opacity: 0;
+}
+.select {
+  height: 40px;
+}
+
+.select:focus {
+  outline: none;
+}
+
+/* width */
+::-webkit-scrollbar {
+  margin-right: 10px;
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+  background: white;
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background: #888;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(118, 118, 118);
+  cursor: pointer;
+}

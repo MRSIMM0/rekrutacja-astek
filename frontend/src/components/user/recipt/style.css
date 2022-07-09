@@ -1,0 +1,30 @@
+.recipt-main {
+  border-radius: 10px;
+  padding: 10px;
+  width: 90%;
+  height: 20px;
+  background-color: #b2dde1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.input-smalll {
+  max-height: 30px;
+  aspect-ratio: 2/1;
+}
+
+.clear {
+  align-self: center;
+  margin-bottom: 10px;
+  width: 100%;
+  max-width: 100px;
+}
+.result {
+  font-weight: 500;
+  font-size: 2em;
+  bottom: 5%;
+  position: absolute;
+  justify-self: bottom;
+  display: flex;
+}
