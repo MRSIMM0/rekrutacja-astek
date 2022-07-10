@@ -36,7 +36,7 @@ First you have to either clone this project via `git clone` or download the zip 
 #### Backend
   * Tests - to run tests you have to navigate into backend folder next  use `mvn clean test`
   
-  * Build - to build a project you have to navigate into the backend folder, next use `mvn package` to build the project. Jar file will be located in `/backend/src/target` 
+  * Build - to build a project you have to navigate into the backend folder, first run `mvn clean compile` next use `mvn package` to build the project. Jar file will be located in `/backend/src/target` 
   
   * Run - to run backend you have to navigate into backend folder next to  use <br> ` mvn clean compile exec:java -Dexec.mainClass="src.Server"`
   
