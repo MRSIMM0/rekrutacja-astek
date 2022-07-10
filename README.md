@@ -38,7 +38,7 @@ First you have to either clone this project via `git clone` or download the zip 
   
   * Build - to build a project you have to navigate into the backend folder, next use `mvn package` to build the project. Jar file will be located in `/backend/src/target` 
   
-  * Run - to run backend you have to navigate into backend folder next to  use <br> ` mvn clean compile exec:java -Dexec.mainClass="src.main.java.src.Server"`
+  * Run - to run backend you have to navigate into backend folder next to  use <br> ` mvn clean compile exec:java -Dexec.mainClass="src.Server"`
   
 #### Frontend
 To run frontend navigate to frontend folder and execute `npm i` to install all required dependencies then run `npm run`
